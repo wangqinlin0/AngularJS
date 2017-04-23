@@ -1,0 +1,30 @@
+<div class="m_bottom">
+	<div class="padder">
+		<div class="streamline b-l b-info m-l-lg m-b padder-v">
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="inputUsername" class="col-sm-2 control-label">用户名：</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="inputUsername" placeholder="{{userName}}" value="{{userName}}">
+					</div>
+				</div>
+				<div class="form-group form-inline">
+					<label for="inputage" class="col-sm-2 control-label">年龄：</label>
+					<div class="col-sm-4">
+						<input type="text" class="form-control" id="inputage" placeholder="{{age}}" value="{{age}}">
+					</div>
+					<label for="inputsex" class="col-sm-2 control-label">性别：</label>
+					<div class="col-sm-4">
+						<input type="text" class="form-control" id="inputsex" placeholder="{{sex}}" value="{{sex}}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputSrc" class="col-sm-2 control-label">上传头像:</label>
+					<img src="{{photosrc}}" alt="当前头像" class="img-circle" width="128" height="128">
+					<br/><br/>
+					<input type="file" id="inputSrc" class="col-sm-4 col-sm-offset-2" >
+				</div><button type="submit" class="btn  btn-success col-sm-2 col-sm-offset-2" ng-click="submit()">提交</button>
+			</form>
+		</div>
+	</div>
+</div>
